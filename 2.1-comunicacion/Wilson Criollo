@@ -1,0 +1,36 @@
+Pregunta 1:
+¿Cuál es la forma correcta de pasar datos desde un componente padre a un componente hijo en Angular?
+
+a) Usando @Output y EventEmitter
+
+b) Usando @Input en el componente hijo
+
+c) Usando @Injectable para inyectar el servicio de datos
+
+Respuesta: b) Usando @Input en el componente hijo
+
+Explicación: La forma correcta de pasar datos del componente padre al hijo en Angular es utilizando `@Input` en el componente hijo. `@Output` y `EventEmitter` se utilizan para pasar datos del hijo al padre.
+
+Pregunta 2:
+¿Cómo puede un componente hijo enviar datos de vuelta al componente padre en Angular?
+
+a) Usando @Input
+
+b) Usando @Output y EventEmitter
+
+c) Usando servicios con @Injectable
+
+Respuesta: b) Usando @Output y EventEmitter
+
+Explicación: Para enviar datos del componente hijo al padre, se utiliza @Output y EventEmitter. @Output se declara en el hijo y emite eventos que el padre puede escuchar y manejar.
+
+Pregunta 3:
+¿Qué se necesita para escuchar los eventos emitidos por un componente hijo en el componente padre en Angular?
+
+a) Declarar el evento con @Output en el hijo y utilizar una propiedad de evento en el padre
+
+b) Declarar el evento con @Input en el hijo y utilizar un servicio en el padre
+
+c) No se puede hacer, la comunicación es unidireccional
+
+Respuesta: a) Declarar el evento con @Output en el hijo y utilizar una propiedad de evento en el padre
